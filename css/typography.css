@@ -50,3 +50,18 @@ h6 {
   font-family: 'Droid Sans', sans-serif;
   font-size: 12px;
 }
+
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+.p2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: italic;
+}
+section{
+  /*background: #D3D3D3*/
+  background: #778899
+}

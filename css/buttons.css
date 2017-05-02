@@ -1,0 +1,113 @@
+
+h1 {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 36px;
+}
+h2 {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 30px;
+}
+h3 {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 24px;
+}
+h4 {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 18px;
+}
+h5 {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 14px;
+}
+h6 {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 12px;
+}
+
+.h1 {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 36px;
+  display: inline-block;
+}
+.h2 {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 30px;
+}
+.h3 {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 24px;
+}
+.h4 {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 18px;
+}
+.h5 {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 14px;
+}
+.h6 {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 12px;
+}
+/*
+############################BUTTTTONS#########################
+*/
+.fresh-button {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 2;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 6px;
+}
+.fresh-button-disabled {
+  cursor: not-allowed;
+  opacity: 0.65;
+  border-radius: 6px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+.fresh-button-active:focus {
+  background:#939393;
+  border-radius: 6px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+.fresh-button-primary {
+  background-color: #008CBA;
+  color:white;
+  border-radius: 6px;
+  text-shadow: 0 1px 1.5px rgba(0, 0, 0, 0.5);
+}
+.small {
+  font-size: 55%;
+}
+.medium {
+  font-size: 80%;
+}
+.large {
+  font-size: 115%;
+}
+.red {
+  background: rgb(202,60,60);
+  color:white;
+}
+.green {
+  background: rgb(28, 184, 65); /* this is a green */
+  color:white;
+}
+.orange {
+  background: rgb(223, 117, 20); /* this is a orange */
+  color:white;
+}
