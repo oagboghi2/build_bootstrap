@@ -123,7 +123,7 @@ h6 {
 .group button:not(:last-child) {
     border-right: none; /* Prevent double borders */
 }
-
+ 
 /* Clear floats (clearfix hack) */
 .group:after {
     content: "";
