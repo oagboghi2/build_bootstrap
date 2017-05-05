@@ -1,8 +1,16 @@
 
 
+header{
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eee;
+}
+
 h1 {
   font-family: 'Droid Sans', sans-serif;
   font-size: 36px;
+  text-align: center;
+  justify-content: center;
 }
 h2 {
   font-family: 'Droid Sans', sans-serif;
@@ -24,12 +32,15 @@ h6 {
   font-family: 'Droid Sans', sans-serif;
   font-size: 12px;
 }
-
 .h1 {
   font-family: 'Droid Sans', sans-serif;
   font-size: 36px;
   display: inline-block;
+  justify-content: flex-end;
+  text-align: center;
+  background-color: green;
 }
+
 .h2 {
   font-family: 'Droid Sans', sans-serif;
   font-size: 30px;
@@ -64,4 +75,12 @@ p{
 section{
   /*background: #D3D3D3*/
   background: #778899
+}
+.center{
+  justify-content: center;
+  text-align: center;
+}
+#left{
+  text-align: left;
+  /*justify-content: flex-start;*/
 }
