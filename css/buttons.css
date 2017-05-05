@@ -553,3 +553,33 @@ ul.breadcrumb li a {color: green;}
   padding: 9px;
   border-radius: 3px;
 }
+#mainHead {
+  font-family: cursive;
+  font-size: 78px;
+}
+.topHead
+{
+  background-color: #a3bad1;
+  display:block;
+  postion:relative;
+}
+
+
+.menu
+{
+  background-color: #a3bad1;
+  height: 100%;
+}
+.main
+{
+  background-color: #a3bad1;
+  margin: 0% 0% 40% 10%;
+  padding: 5% 0% 40% 10%;
+
+}
+body {
+  background-color: #a3bad1;
+}
+* {
+  color:white;
+}
