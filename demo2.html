@@ -2,16 +2,55 @@
 <html>
 <head>
 <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
-<link rel = "stylesheet" href = "css/buttons.css">
 <link rel = "stylesheet" href = "css/typography.css">
-<title>SHOELACE FRAMEWORK</title>
+<link rel = "stylesheet" href = "css/buttons.css">
+
+<title>Shoelace Frame</title>
 </head>
 <body>
-  <h1>Shoelace</h1>
+  <div class = 'menu'>
+    <hr>
+    <h4 style = 'font-family:cursive;'>shoeLace</h4>
+    <hr>
+    <ol>
+      <li><a href = "#headings">Headings</a></li>
+      <li><a href = "#bodyCopy">Body Copy</a></li>
+      <li><a href = "#addresses">Address</a></li>
+      <li><a href = "#blockQuotes">Blockquotes</a></li>
+      <li><a href = "#pagination">Pagination</a></li>
+      <li><a href = "#label">Label</a></li>
+      <li><a href = "#badges">Badges</a></li>
+      <li><a href = "#jumbotron">Jumbotron</a></li>
+      <li><a href = "#buttons">Buttons</a></li>
+      <li><a href = "#breadcrumbs">Breadcrumbs</a></li>
+      <li><a href = "#pageHeader">Page Header</a></li>
+      <li><a href = "#thumbnails">Thumbnails</a></li>
+      <li><a href = "#alerts">Alerts</a></li>
+      <li><a href = "#listGroup">List Group</a></li>
+      <li><a href = "#panel">Panels</a></li>
+      <li><a href = "#wells">Wells</a></li>
+
+
+
+    </ol>
+
+
+  </div>
+
+<div class = "topHead">
+  <h1 id = "mainHead">Shoelace</h1>
+</div>
+
+
+
+
+<div class = 'main' >
+
+
   <hr>
   <header>
-  <h1>Headings</h1>
-  <p class="center">Headings in Shoelace all carry a Droid Sans font-family.<p>
+  <h1 id = 'headings'>Headings</h1>
+  <h2 class="center">Headings in Shoelace all carry a Droid Sans font-family.<h2>
   </header>
 
     <section>
@@ -35,25 +74,32 @@
         <blockquote><xmp><h6 class = "h6">h6 tags are all block level while class
       .h6 are inline</h6></xmp></blockquote>
 </section>
-
-<h1>Body Copy</h1>
-<p>This is applied to the all paragraph blocks.</p>
+<header>
+  <hr>
+<h1 id = "bodyCopy">Body Copy</h1>
+<h2 class = "center">This is applied to the all paragraph blocks.</h2>
+</header>
 
 <section><p class = "p">
 Paragraphs in Shoelace. The European languages are members of the same family.
 Their separate existence is a myth. For science, music, sport, etc,
  Europe usesthe same vocabulary.</p>
-<p class = "p2">The languages only differ in their grammar, their pronunciation and
+<p class = "p2">These languages only differ in their grammar, their pronunciation and
   their most common words. Everyone realizes why a new common language would be
   desirable: one could refuse to pay expensive translators.</p>
 </p>
 <h5 class = "h5">Example</h5>
-<blockquote><xmp><p>.....</p></xmp></blockquote>
+<blockquote><xmp><p class = "p2">These languages only differ in their grammar, their pronunciation and
+  their most common words. Everyone realizes why a new common language would be
+  desirable: one could refuse to pay expensive translators.</p>
+</p></xmp></blockquote>
 </section>
-
-<h1>Address</h1>
-<p>The address tag defines the contact information for the author/owner
-  of a document or an article.</p>
+<hr>
+<header>
+<h1 id = "addresses">Address</h1>
+<h2 class = 'center'>The address tag defines the contact information for the author/owner
+  of a document or an article.</h2>
+</header>
 
   <section>
     <address>
@@ -73,7 +119,7 @@ USA
 </xmp></blockquote>
 
 
-<h1>Blockquotes</h1>
+<h1 id = 'blockQuotes'>Blockquotes</h1>
 <p>For quoting blocks of content from another source within your document.</p>
 <section>
   <blockquote cite="http://www.blindtextgenerator.com/lorem-ipsum">
@@ -91,25 +137,25 @@ USA
   </xmp></blockquote>
 </section>
 
-<h1>Pagination</h1>
+<h1 id = 'pagination'>Pagination</h1>
 <p>f you have a website with lots of pages, you may wish to add
    some sort of pagination to each page:</p>
 <section class="center">
 <nav>
   <div class="pagination">
-    <button><a href="#">&laquo;</a></button>
-    <button><a href="#">1</a></button>
-    <button><a href="#">2</a></button>
-    <button><a href="#">3</a></button>
-    <button><a href="#">4</a></button>
-    <button><a href="#">5</a></button>
-    <button><a href="#">6</a></button>
-    <button><a href="#">&raquo;</a></button>
+    <button style = "background-color:black;"><a href="#">&laquo;</a></button>
+    <button style = "background-color:black;"><a href="#">1</a></button>
+    <button style = "background-color:black;"><a href="#">2</a></button>
+    <button style = "background-color:black;"><a href="#">3</a></button>
+    <button style = "background-color:black;"><a href="#">4</a></button>
+    <button style = "background-color:black;"><a href="#">5</a></button>
+    <button style = "background-color:black;"><a href="#">6</a></button>
+    <button style = "background-color:black;"><a href="#">&raquo;</a></button>
   </div>
 </nav>
 </section>
 
-<h1>Label</h1>
+<h1 id = "label">Label</h1>
 <p>The HTML "label" element represents a caption for an item in a user interface.</p>
 
 <section class="center">
@@ -124,36 +170,44 @@ USA
 </form>
 </section>
 
-<h1>Badges</h1>
+<h1 id = "badges">Badges</h1>
 <p></p>
 <section class="center">
 <button class="badge1" data-badge="6">Badge Notification</button><br>
 <a href="" class="badge1" data-badge="27">#num</a>
 </section>
-<h1>JumboTron</h1>
-<p></p>
-
+<header>
+<h1 id = "jumbotron">JumboTron</h1>
+<h2 class = "center">The big box, to create big attention</h2>
+</header>
+<section>
 <div class="jumbotron">
   <div class="container">
     <h1 id=left >Hello, world!</h1>
-  <p>This is a jumbotron div</p>
-  <p><button><a href="#" role="button">Learn more</a></button></p>
+  <p>This is a jumbotron div, A jumbotron indicates a big box for calling extra attention to some special content or information.
+
+A jumbotron is displayed as a grey box with rounded corners. It also enlarges the font sizes of the text inside it.
+</p>
+  <button style = "background-color:black;">Learn more</button>
   </div>
 </div>
 
 <blockquote><xmp>
   <div class="jumbotron">
-      <div class="container">
-        ...
-        </div>
-</div>
+    <div class="container">
+      <h1 id=left >Hello, world!</h1>
+    <p>This is a jumbotron div, A jumbotron indicates a big box for calling extra attention to some special content or information.
+
+  A jumbotron is displayed as a grey box with rounded corners. It also enlarges the font sizes of the text inside it.
+  </p>
+    <button style = "background-color:black;">Learn more</button>
+    </div>
+  </div>
 </xmp></blockquote>
-
-
-<body>
+</section>
   <header style = 'text-align:center'>
     <hr>
-    <h1>Buttons</h1>
+    <h1 id = "buttons">Buttons</h1>
     <h2>Clean CSS For Buttons</h2>
     <hr>
   </header>
@@ -280,7 +334,7 @@ USA
 </section>
 <hr>
 <header style = 'text-align:center'>
-  <h1>Breadcrumbs</h1>
+  <h1 id = "breadcrumbs">Breadcrumbs</h1>
   <h2>Navigate Pages Within Websites Easily</h2>
   <hr>
 </header>
@@ -310,7 +364,7 @@ USA
 <hr>
 
 <header style = 'text-align:center'>
-  <h1>Page Header</h1>
+  <h1 id = "pageHeader">Page Header</h1>
   <h2>A simple style for an h1 to accurately space sections of content on the page.</h2>
   <hr>
 </header>
@@ -331,7 +385,7 @@ USA
 
 
 <header style = 'text-align:center'>
-  <h1>Thumbnails</h1>
+  <h1 id = "thumbnails">Thumbnails</h1>
   <h2>Easily display grids of images, videos, text, and more.</h2>
   <hr>
 </header>
@@ -362,7 +416,7 @@ USA
 
 <header style = 'text-align:center'>
   <hr>
-  <h1>Alerts</h1>
+  <h1 id = "alerts">Alerts</h1>
   <h2>Provide contextual feedback messages for typical
       user actions with the handful of available and flexible alert messages.</h2>
   <hr>
@@ -386,7 +440,7 @@ USA
 </section>
 <header style = 'text-align:center'>
   <hr>
-  <h1>List Group</h1>
+  <h1 id = "listGroup">List Group</h1>
   <h2>Flexible and powerful component for displaying list of elements</h2>
   <hr>
 </header>
@@ -417,7 +471,7 @@ USA
 
 <header style = 'text-align:center'>
   <hr>
-  <h1>Panels</h1>
+  <h1 id = "panel">Panels</h1>
   <h2>Sometimes you need to put your content in a box. For those situations, try the panel.</h2>
   <hr>
 </header>
@@ -479,7 +533,7 @@ USA
 </section>
 <hr>
 <header style = 'text-align:center'>
-  <h1>Wells</h1>
+  <h1 id = "wells">Wells</h1>
   <h2>Basic effect on an element to give it an inset feel.</h2>
   <hr>
 </header>
@@ -491,6 +545,9 @@ USA
     </xmp>
   </div>
 </section>
+
+</div>
+
   </body>
 
 </html>
